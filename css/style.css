@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{max-width: 100%;}
+
+body{
+font-family: 'Rubik', sans-serif;
+
+}
+
+
+header{
+padding: 20px;
+}
+
+
+.container{
+    width:1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+.logo a{
+}
+.logo img{}
+
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    display: flex;
+}
+nav ul li a{
+    color: #333;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    display:block;
+    transition: 0.8s;
+}
+
+nav ul li a:hover{
+       color: #06b1e4;
+}
+
+
+.bannar-section{
+    background-color: #00000066;
+    background-image: url(../images/park.jpg);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-position: center;
+    background-blend-mode: multiply;
+    display: block;
+}
+.bannar-text{
+    text-align: center;
+    text-transform: uppercase;
+}
+.bannar-text h1{
+    color: #06b1e4;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.btn{
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    display: inline-block;
+    border: 2px solid #06b1e4;
+    border-radius: 6px;
+     transition: 0.8s;
+    }
+
+
+.btn:hover{
+    color: white;
+    background-color: #06b1e4;
+}
+
+.btns{
+    border: 2px solid #06b1e4;
+    color: #06b1e4;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 10px;
+     transition: 0.8s;
+}
+
+.btns:hover{
+    color:white;
+    background-color: #f99c2d;
+}
+
+.bannar-text img{
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
+
+
+.midsection{
+    position: relative;
+    padding: 150px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.midtext{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    
+
+}
+.midtext h1{
+    padding-bottom: 50px;
+    color: #dba590;
+    font-weight: 600;
+}
+
+.midtext h1:before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #dba590;
+    position: absolute;
+    margin-left: 235px;
+    margin-top: 20px;
+}
+
+
+.midtext h1:after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #dba590;
+    position: absolute;
+    margin-left: 839px;
+    margin-top: -20px;
+}
+
+.midtext h3{
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding: 90px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.midtext h3:before{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 2px;
+    background: #bfbfbf;
+    position: absolute;
+    margin-left: 228px;
+    margin-top: 20px;
+}
+
+
+.midtext h3:after{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 2px;
+    background: #bfbfbf;
+    position: absolute;
+    margin-left: 689px;
+    margin-top: -24px;
+}
+
+.midsection .midtext h5{
+    font-size: 20px;
+    letter-spacing: 20px;
+    font-weight: 300;
+}
+
+.midimg{
+    display: flex;
+}
+
+
+.service-section{
+    padding-top: 120px;
+    padding-bottom:120px;
+}
+
+.heading{text-align: center;}
+.heading h2{
+            color: #333;
+            font-size: 42px;
+            padding-top: 25px;
+            font-weight: 700;
+            }
+
+.col{
+    padding: 15px;
+    width: 33.33%;
+}
+.service{
+    border: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 2px #c3c3c3;
+    border-radius: 10px;
+    padding: 60px 15px;
+    margin: 15px;
+}
+.service p{
+    font-size: 25px;
+    padding: 25px;
+    margin-top: -26px;
+    padding-bottom: 51px;
+}
+.flex{
+    display: flex;
+    padding: 50px;}
+
+.service img{
+    width: 100px;
+    padding-bottom: 3px;
+}
+
+.heading h2 span{
+    color:#06b1e4;
+    font-size: 70px;
+    font-weight: 700
+}
+.service h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.service p{}
+.service-button{
+    border: 2px solid #06b1e4;
+    padding: 15px;
+    color: #06b1e4;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.8s;
+    }
+
+
+.service-button:hover{
+    color: #333;
+    background-color: #6bddff;
+    }
+
+
+
+footer {
+    background:#06b1e4;
+    padding-bottom: 55px;
+    }
+
+.text-box{
+    float: left;
+    background: #06b1e4;
+    width: 25%;
+    text-align: left;
+}
+
+.text-box h3{
+        padding-bottom: 29px;
+        color: #fff;
+        font-weight: 700;
+        padding-top: 58Px;
+        font-size: 25px;
+        text-transform: uppercase;
+        }
+
+.text-box p{}
+
+.text-box p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+    }   
+
+.text-box p a:hover{color:black;}
+
+.copyright{background: #006786;}
+
+.container2{
+    padding-bottom: 26px;
+    padding-top: 26px;
+    border-top: 2px solid #8e8e8e;
+}
+.copy{}
+.copy p{
+    color: #ffffff;
+    text-align: center;
+}
+
+.copy a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.double-section{
+    margin: 0;
+    display: block;
+    background: #f3f3f3;
+}
+
+.double-section .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+
+
+}
+
+.double-section .card .slideimg{
+    padding-top: 150px;
+    box-shadow: 0 0 20px 0px #e8e8e8;
+
+}
+
+.content{
+    padding-top: 40px;
+
+}
+
+
+.slideimg{
+    padding-bottom: 150px;
+}
+
+.content h1{
+   padding-bottom: 20px;
+   text-transform: uppercase;
+   padding-right: 60px;
+   font-size: 35px;
+   padding-top: 20px;
+}
+
+.content h1{
+    padding-bottom: 20px;
+}
+
+.see-more{
+    padding-top: 30px;
+    display: inline-flex;
+    text-decoration: none;
+    font-weight: 700;
+    color: #f99c2d;
+}
+    
+
+.see-more:hover{
+    color: #6bddff;
+    transition: 1s;
+}
+
+
+
+.hovereffect{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    background: #eee;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    padding-left: 205px;
+}
+
+.hovereffect h1{
+    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-right: 163px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 30px;
+    font-weight: 500;
+    color: #06b1e4;
+}
+
+
+.hovereffect .container .box{
+    position: relative;
+    max-width: 250px;
+    height: 200px;
+    background: #fff;
+    margin: 30px 20px;
+    padding: 20px 15px;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 5px 4px 13px 5px #d4d4d4;
+    transition: 0.5s ease-in-out;
+}
+
+.hovereffect .container .box:hover{
+    height: 350px;
+}
+
+.hovereffect .container .box .imgbox{
+    position: relative;
+    max-width: 216px;
+    height: 216px;
+    top: -45px;
+    left: 17px;
+    box-shadow: 0px 5px 20px 0px #d6d6d6;
+}
+
+
+.hovereffect .container .box .imgbox img{
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+
+.hovereffect .container .box .content{
+    position: relative;
+    margin-top: -150px;
+    padding:10px 15px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+
+}
+
+.hovereffect .container .box .content h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color:#6bddff;
+}
+
+.hovereffect .container .box .content h2 p{
+    color: gray;
+}
+
+.hovereffect .container .box:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -50px;
+    transition-delay: 0.5s;
+}
+
+
+
+.our-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a0a0a0;
+
+}
+ .our-team h1{
+    padding-bottom: 60px;
+    padding-top: 70px;
+    padding-left: 309px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 20px;
+    font-weight: 500;
+    color: #6f6f6f;
+ }
+
+
+.our-team .container{
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.our-team .container .teambox{
+    position: relative;
+    width: 45%;
+    height:280px;
+    background: white;
+    margin: 30px 0;
+    margin-left: 30px;
+}
+
+.our-team .container .teambox .teamimgbox{
+    position: relative;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: white;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 16px 10px #00000030;
+
+}
+
+
+.our-team .container .teambox:hover .teamimgbox{
+    top:0;
+    left:0;
+    width: 200px;
+    height: 150px;
+    left: -40px;
+}
+
+
+.our-team .container .teambox .teamimgbox:before:{
+    content: attr(data-text);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    color: gray;
+    box-shadow: 0 0 13px 8px #0000001f;
+}
+
+
+.our-team .container .teambox .teamimgbox img{
+    max-width: 100%;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+
+.our-team .container .teambox .teamimgbox h6{
+    padding-left: 20px;
+}
+
+.our-team .container .content{
+    display: flex;
+    top:0;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #a0a0a0;
+    
+}
+
+
+.our-team .container .content h6{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.our-team .container .content p{
+    font-size: 16px;
+}
